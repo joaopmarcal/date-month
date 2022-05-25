@@ -8,7 +8,6 @@
 
       $months[$i]['first'] = strtotime($months[$i]['first']);
       $months[$i]['last'] = strtotime($months[$i]['last']);
-      $i++;
     }
 
     var_dump($months);
